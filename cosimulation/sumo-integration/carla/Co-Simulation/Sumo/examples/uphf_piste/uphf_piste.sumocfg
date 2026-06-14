@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="uphf_piste.net.xml"/>
+        <route-files value="carlavtypes.rou.xml,uphf_piste.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="0.05"/>
+    </time>
+</configuration>

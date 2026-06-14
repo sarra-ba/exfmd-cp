@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <rerouter id="rerouter_0" edges="-0 -1 -2 -3 -4 -5">
+        <interval begin="0" end="3600">
+            <destProbReroute id="-10"/>
+            <destProbReroute id="-15"/>
+            <destProbReroute id="-20"/>
+        </interval>
+    </rerouter>
+</additional>

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# ROS2 / colcon (reconstructibles)
+build/
+install/
+log/
+devel/
+
+# Sauvegardes et copies
+*.bak
+*~
+*.swp
+*(copy)*
+*_backup.*
+*backup.py
+
+# Logs de simulation
+*.cmdenv-log
+.cmdenv-log
+*.sca
+*.vec
+*.elog
+
+# Gros binaires / artefacts (hors repo)
+*.tar.gz
+*.tar
+*.zip
+*.whl
+*.fbx
+*.las
+*.umap
+*.uasset
+*.uexp
+
+# Donnees generees / sorties
+*.bag
+rosbags/
+datasets/
+*.pcd
+
+# Secrets / env local
+.env
+*.pem
+*.key
+credentials*
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
