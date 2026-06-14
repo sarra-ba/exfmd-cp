@@ -56,3 +56,7 @@ credentials*
 
 # Exception : garder le FBX source de la piste UPHF (leger, essentiel)
 !map-uphf/uphf_piste.fbx
+
+# Node.js (dashboard web v2x_apps)
+node_modules/
+dist/
